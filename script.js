@@ -130,7 +130,7 @@
     const ownerDiv = document.querySelector('.owner-info');
     
     copyBtn.addEventListener('click', function() {
-        const address = "Opposite Canara Bank, above School Hub, Lalan Complex, Siwan";
+        const address = "Lalan Complex, Rajendra Path, opp. Canara Bank, Babhnauli, Siwan, Bihar 841226";
         navigator.clipboard.writeText(address).then(() => {
             this.innerHTML = '<i class="fas fa-check"></i>';
             this.style.background = '#4caf50';
@@ -172,10 +172,10 @@
         });
     }
     
-    // Map/Direction Button
+    // Map/Direction Button - Updated with exact location
     if (quickMapBtn) {
         quickMapBtn.addEventListener('click', function() {
-            const address = encodeURIComponent('Opposite Canara Bank, above School Hub, Lalan Complex, Siwan');
+            const address = encodeURIComponent('Lalan Complex, Rajendra Path, opposite Canara Bank, Babhnauli, Siwan, Bihar 841226');
             window.open(`https://www.google.com/maps/search/?api=1&query=${address}`, '_blank');
         });
     }
