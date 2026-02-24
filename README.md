@@ -33,9 +33,12 @@ We offer suits, sarees, frocks, dupattas, lehengas, gowns, skirts, nighties, kid
 
 ---
 
-## LIVE SITE
+## LIVE SITES
 
-https://akash38314.github.io/savitri-vastralay/
+| Platform | Link |
+|----------|------|
+| **GitHub Pages** | https://akash38314.github.io/savitri-vastralay/ |
+| **Netlify** | https://savitri-vastralay.netlify.app |
 
 ---
 
