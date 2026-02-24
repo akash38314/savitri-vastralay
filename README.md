@@ -12,7 +12,7 @@
 
 ### LIVE PREVIEW
 
-**Website:** [https://akash38314.github.io/savitri-vastralay/](https://akash38314.github.io/savitri-vastralay/)
+**Website:** (https://akash38314.github.io/savitri-vastralay/)
 
 ---
 
