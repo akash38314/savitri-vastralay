@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVITRI VASTRALAY · HOLI AD</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Holi Splash Background -->
+    <div class="holi-splash">
+        <div class="pichkari p1"></div>
+        <div class="pichkari p2"></div>
+        <div class="pichkari p3"></div>
+        <div class="color-c splash1"></div>
+        <div class="color-c splash2"></div>
+        <div class="color-c splash3"></div>
+        <div class="color-c splash4"></div>
+    </div>
+
+    <div class="ad-wrapper">
+        <!-- Main Advertisement Card -->
+        <div class="ad-card">
+            <!-- Header with Logo & Date -->
+            <div class="ad-header">
+                <div class="logo-area">
+                    <i class="fas fa-feather-alt"></i>
+                    <h1>SAVITRI<br>VASTRALAY</h1>
+                </div>
+                <div class="date-holi">
+                    <div class="live-date" id="liveDate"></div>
+                    <div class="holi-tag">
+                        <i class="fas fa-palette"></i> HOLI 2026
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tagline -->
+            <div class="tagline">Women's Fashion · Since 2020</div>
+
+            <!-- Main Offer Text -->
+            <div class="offer-text">
+                <p>We offer suits, sarees, frocks, dupattas, lehengas, gowns, skirts, nighties, kids' and ladies' wear at <span>reasonable prices</span>.</p>
+            </div>
+
+            <!-- Product Showcase -->
+            <div class="product-showcase">
+                <div class="product-chip" data-product="Suits">👗 SUITS</div>
+                <div class="product-chip" data-product="Sarees">🥻 SAREES</div>
+                <div class="product-chip" data-product="Frocks">👚 FROCKS</div>
+                <div class="product-chip" data-product="Dupattas">🧣 DUPATTAS</div>
+                <div class="product-chip" data-product="Lehengas">👘 LEHENGAS</div>
+                <div class="product-chip" data-product="Gowns">👰 GOWNS</div>
+                <div class="product-chip" data-product="Skirts">👗 SKIRTS</div>
+                <div class="product-chip" data-product="Nighties">😴 NIGHTIES</div>
+                <div class="product-chip kids" data-product="Kids Wear">🧸 KIDS' WEAR</div>
+                <div class="product-chip ladies" data-product="Ladies Wear">👩 LADIES' WEAR</div>
+            </div>
+
+            <!-- Contact & Address Bar -->
+            <div class="contact-bar">
+                <div class="owner-info">
+                    <i class="fas fa-crown"></i>
+                    <span id="ownerNumber">SHOP OWNER: 9903853162</span>
+                </div>
+                <div class="address-info" id="addressText">
+                    <i class="fas fa-map-pin"></i>
+                    <span>Opposite Canara Bank, above School Hub, Lalan Complex, Siwan</span>
+                </div>
+                <button class="copy-btn" id="copyBtn"><i class="far fa-copy"></i></button>
+            </div>
+
+            <!-- Connection Portal -->
+            <div class="portal-section">
+                <div class="portal-title">
+                    <i class="fas fa-hands-helping"></i>
+                    <h2>CONNECTION PORTAL</h2>
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <p class="portal-sub">Leave your details · We'll reach out</p>
+
+                <!-- Form -->
+                <form id="contactForm" class="portal-form">
+                    <div class="form-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" id="phone" placeholder="Phone Number" maxlength="10" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Email (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-comment"></i>
+                        <textarea id="message" rows="2" placeholder="Your Message" maxlength="120"></textarea>
+                        <span class="char-count" id="charCount">0/120</span>
+                    </div>
+
+                    <!-- Live Preview -->
+                    <div class="live-preview-mini" id="livePreview">
+                        <i class="fas fa-quote-left"></i>
+                        <span>Your message will appear here...</span>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+
+                    <button type="submit" class="send-btn">
+                        <span>SEND CONNECTION</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+                <!-- Recent Connections -->
+                <div class="recent-box">
+                    <div class="recent-header">
+                        <i class="fas fa-clock"></i> RECENT CONNECTIONS <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="recent-list" id="recentList">
+                        <div class="empty-state">
+                            <i class="fas fa-star"></i> No connections yet · Be the first
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="ad-footer">
+                <div class="footer-line"></div>
+                <p>© SAVITRI VASTRALAY · Opposite Canara Bank, above School Hub, Lalan Complex, Siwan</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
