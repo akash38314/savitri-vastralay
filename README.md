@@ -1,6 +1,8 @@
-# SAVITRI VASTRALAY - Women's Fashion
+# savitri-vastralay
 
-![HOLI Special](https://img.shields.io/badge/HOLI-2025-ff69b4)
+## SAVITRI VASTRALAY - Women's Fashion
+
+![HOLI 2025](https://img.shields.io/badge/HOLI-2025-ff69b4)
 ![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-success)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -8,45 +10,48 @@
 
 ---
 
-## LIVE PREVIEW
+### LIVE PREVIEW
 
-**Website:** [https://your-username.github.io/savitri-vastralay](https://your-username.github.io/savitri-vastralay)
+**Website:** [https://akash38314.github.io/savitri-vastralay/](https://akash38314.github.io/savitri-vastralay/)
 
 ---
 
-## ABOUT
+### ABOUT
 
 **SAVITRI VASTRALAY** is a women's fashion store offering a wide range of traditional and modern clothing at reasonable prices.
 
+---
+
 ### We Offer:
-- **SUITS** - Elegant designer suits
-- **SAREES** - Traditional & modern
-- **FROCKS** - Cute & comfortable
-- **DUPATTAS** - Beautiful designs
-- **LEHENGAS** - Festival special
-- **GOWNS** - Party wear
-- **SKIRTS** - Trendy styles
-- **NIGHTIES** - Comfort wear
-- **KIDS' WEAR** - Adorable collection
-- **LADIES' WEAR** - Complete range
 
----
-
-## FEATURES
-
-| Feature | Description |
+| Product | Description |
 |---------|-------------|
-| Holi Animated Background | Pichkari & color splash effects |
-| Live Date & Time | Real-time update |
-| Owner Contact | 9903853162 with click-to-copy |
-| Address | One-click copy button |
-| Live Message Preview | Real-time message display |
-| Recent Connections | Visitor timeline |
-| Mouse Splash | Interactive color effects |
+| **SUITS** | Elegant designer suits |
+| **SAREES** | Traditional & modern |
+| **FROCKS** | Cute & comfortable |
+| **DUPATTAS** | Beautiful designs |
+| **LEHENGAS** | Festival special |
+| **GOWNS** | Party wear |
+| **SKIRTS** | Trendy styles |
+| **NIGHTIES** | Comfort wear |
+| **KIDS' WEAR** | Adorable collection |
+| **LADIES' WEAR** | Complete range |
 
 ---
 
-## TECHNOLOGY STACK
+### FEATURES
+
+- 🎨 **Holi Animated Background** - Pichkari & color splash effects
+- 📅 **Live Date & Time** - Real-time update
+- 📞 **Owner Contact** - 9903853162 with click-to-copy
+- 📍 **Address** - One-click copy button
+- 📝 **Live Message Preview** - Real-time message display
+- 👥 **Recent Connections** - Visitor timeline
+- 🖱️ **Mouse Splash** - Interactive color effects
+
+---
+
+### TECHNOLOGY STACK
 
 - **HTML5** - Structure
 - **CSS3** - Styling & Animations
