@@ -114,7 +114,7 @@ To run on your computer:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/savitri-vastralay.git
+git clone [https://github.com/your-username/savitri-vastralay.git](https://akash38314.github.io/savitri-vastralay/)
 
 # 2. Go to folder
 cd savitri-vastralay
