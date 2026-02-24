@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAVITRI VASTRALAY · HOLI AD</title>
+    <title>SAVITRI VASTRALAYA · HOLI GALLERY</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Google Fonts -->
@@ -26,15 +26,22 @@
     <div class="ad-wrapper">
         <!-- Main Advertisement Card -->
         <div class="ad-card">
-            <!-- Header with Logo & Date -->
+            <!-- Header with Logo & Stylish Timer -->
             <div class="ad-header">
                 <div class="logo-area">
                     <i class="fas fa-feather-alt"></i>
-                    <h1>SAVITRI<br>VASTRALAY</h1>
+                    <h1>SAVITRI<br>VASTRALAYA</h1>
                 </div>
-                <div class="date-holi">
-                    <div class="live-date" id="liveDate"></div>
-                    <div class="holi-tag">
+                <div class="timer-container">
+                    <div class="timer-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="timer-label" id="liveDate"></span>
+                    </div>
+                    <div class="timer-box time-box">
+                        <i class="fas fa-clock"></i>
+                        <span class="timer-label" id="liveTime"></span>
+                    </div>
+                    <div class="holi-badge">
                         <i class="fas fa-palette"></i> HOLI 2026
                     </div>
                 </div>
@@ -50,16 +57,51 @@
 
             <!-- Product Showcase -->
             <div class="product-showcase">
-                <div class="product-chip" data-product="Suits">👗 SUITS</div>
-                <div class="product-chip" data-product="Sarees">🥻 SAREES</div>
-                <div class="product-chip" data-product="Frocks">👚 FROCKS</div>
-                <div class="product-chip" data-product="Dupattas">🧣 DUPATTAS</div>
-                <div class="product-chip" data-product="Lehengas">👘 LEHENGAS</div>
-                <div class="product-chip" data-product="Gowns">👰 GOWNS</div>
-                <div class="product-chip" data-product="Skirts">👗 SKIRTS</div>
-                <div class="product-chip" data-product="Nighties">😴 NIGHTIES</div>
-                <div class="product-chip kids" data-product="Kids Wear">🧸 KIDS' WEAR</div>
-                <div class="product-chip ladies" data-product="Ladies Wear">👩 LADIES' WEAR</div>
+                <div class="product-chip" data-product="Suits" data-category="suits">👗 SUITS</div>
+                <div class="product-chip" data-product="Sarees" data-category="sarees">🥻 SAREES</div>
+                <div class="product-chip" data-product="Frocks" data-category="frocks">👚 FROCKS</div>
+                <div class="product-chip" data-product="Dupattas" data-category="dupattas">🧣 DUPATTAS</div>
+                <div class="product-chip" data-product="Lehengas" data-category="lehengas">👘 LEHENGAS</div>
+                <div class="product-chip" data-product="Gowns" data-category="gowns">👰 GOWNS</div>
+                <div class="product-chip" data-product="Skirts" data-category="skirts">👗 SKIRTS</div>
+                <div class="product-chip" data-product="Nighties" data-category="nighties">😴 NIGHTIES</div>
+                <div class="product-chip kids" data-product="Kids Wear" data-category="kidswear">🧸 KIDS' WEAR</div>
+                <div class="product-chip ladies" data-product="Ladies Wear" data-category="ladieswear">👩 LADIES' WEAR</div>
+            </div>
+
+            <!-- IMAGE GALLERY SECTION -->
+            <div class="gallery-section">
+                <div class="gallery-header">
+                    <i class="fas fa-images"></i>
+                    <h2>PRODUCT GALLERY</h2>
+                    <i class="fas fa-images"></i>
+                </div>
+                <p class="gallery-sub">Click on any product to see collection · Click image to enlarge</p>
+                
+                <!-- Gallery Filter Buttons -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">ALL</button>
+                    <button class="filter-btn" data-filter="suits">SUITS</button>
+                    <button class="filter-btn" data-filter="sarees">SAREES</button>
+                    <button class="filter-btn" data-filter="frocks">FROCKS</button>
+                    <button class="filter-btn" data-filter="dupattas">DUPATTAS</button>
+                    <button class="filter-btn" data-filter="lehengas">LEHENGAS</button>
+                    <button class="filter-btn" data-filter="gowns">GOWNS</button>
+                    <button class="filter-btn" data-filter="skirts">SKIRTS</button>
+                    <button class="filter-btn" data-filter="nighties">NIGHTIES</button>
+                    <button class="filter-btn" data-filter="kidswear">KIDS'</button>
+                    <button class="filter-btn" data-filter="ladieswear">LADIES'</button>
+                </div>
+                
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="galleryGrid"></div>
+                
+                <!-- Load More Button -->
+                <div class="gallery-more">
+                    <button class="view-more-btn" id="viewMoreBtn">
+                        <i class="fas fa-plus-circle"></i> LOAD MORE
+                    </button>
+                </div>
             </div>
 
             <!-- Contact & Address Bar -->
@@ -159,11 +201,11 @@
                     <span class="separator">|</span>
                     <span><i class="fab fa-whatsapp"></i> WhatsApp</span>
                     <span class="separator">|</span>
-                    <span><i class="far fa-envelope"></i> schoolhub@gmail.com</span>
+                    <span><i class="far fa-envelope"></i> savitri@gmail.com</span>
                 </div>
                 
                 <!-- Copyright -->
-                <p class="copyright">© SAVITRI VASTRALAY · Lalan Complex, Rajendra Path, opp. Canara Bank, Babunia More, Siwan, Bihar 841226</p>
+                <p class="copyright">© SAVITRI VASTRALAYA · Lalan Complex, Rajendra Path, opp. Canara Bank, Babhnauli, Siwan, Bihar 841226</p>
                 
                 <!-- Quick Action Buttons -->
                 <div class="quick-actions">
@@ -179,5 +221,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
