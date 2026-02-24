@@ -27,7 +27,7 @@ We offer suits, sarees, frocks, dupattas, lehengas, gowns, skirts, nighties, kid
 
 ## CONTACT
 
-**SHOP OWNER:** 9903853162  
+**Ramesh Kumar Pandey:** 9903853162  
 **Address:** Opposite Canara Bank, above School Hub, Lalan Complex, Siwan  
 **WhatsApp:** https://wa.me/919903853162
 
