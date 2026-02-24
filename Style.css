@@ -1,4 +1,4 @@
-/* ===== PERFECT ADVERTISEMENT - SAVITRI VASTRALAY ===== */
+/* ===== SAVITRI VASTRALAY - COMPLETE STYLE ===== */
 * {
     margin: 0;
     padding: 0;
@@ -485,21 +485,149 @@ body {
     padding: 2rem;
 }
 
-/* Footer */
-.ad-footer {
-    margin-top: 2rem;
+/* ===== FOOTER SOCIAL MEDIA STYLES ===== */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0 1rem;
+    flex-wrap: wrap;
 }
 
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.whatsapp:hover {
+    background: #128C7E;
+    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.4);
+}
+
+.facebook {
+    background: #1877F2;
+}
+
+.facebook:hover {
+    background: #0A5FCC;
+    box-shadow: 0 10px 20px rgba(24, 119, 242, 0.4);
+}
+
+.instagram {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);
+}
+
+.instagram:hover {
+    box-shadow: 0 10px 20px rgba(221, 42, 123, 0.4);
+}
+
+.call {
+    background: #4CAF50;
+}
+
+.call:hover {
+    background: #2E7D32;
+    box-shadow: 0 10px 20px rgba(76, 175, 80, 0.4);
+}
+
+.share {
+    background: #9C27B0;
+}
+
+.share:hover {
+    background: #6A1B9A;
+    box-shadow: 0 10px 20px rgba(156, 39, 176, 0.4);
+}
+
+/* Contact Strip */
+.contact-strip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    color: #a87676;
+    font-size: 0.95rem;
+    flex-wrap: wrap;
+}
+
+.contact-strip i {
+    margin-right: 5px;
+    color: #a13e5c;
+}
+
+.separator {
+    color: #ffc9b4;
+    font-weight: 300;
+}
+
+.copyright {
+    text-align: center;
+    color: #a87676;
+    font-size: 0.9rem;
+    margin: 1rem 0 1.5rem;
+    line-height: 1.6;
+}
+
+/* Quick Action Buttons */
+.quick-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0 0;
+    flex-wrap: wrap;
+}
+
+.quick-btn {
+    background: linear-gradient(135deg, #a13e5c, #c45d7a);
+    border: none;
+    color: white;
+    padding: 0.7rem 1.8rem;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quick-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(161, 62, 92, 0.4);
+    background: linear-gradient(135deg, #b24d6b, #d46e8a);
+}
+
+.quick-btn i {
+    font-size: 1rem;
+}
+
+/* Footer Line */
 .footer-line {
     height: 3px;
     background: linear-gradient(90deg, transparent, #a13e5c, #ffb3c6, #a13e5c, transparent);
     margin-bottom: 1rem;
-}
-
-.ad-footer p {
-    text-align: center;
-    color: #a87676;
-    font-size: 0.9rem;
 }
 
 /* Responsive */
@@ -509,4 +637,33 @@ body {
     .portal-title h2 { font-size: 1.5rem; }
     .contact-bar { flex-direction: column; }
     .address-info { text-align: center; }
+    
+    .social-media {
+        gap: 1rem;
+    }
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+    
+    .contact-strip {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .separator {
+        display: none;
+    }
+    
+    .quick-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .quick-btn {
+        width: 100%;
+        justify-content: center;
+    }
 }
