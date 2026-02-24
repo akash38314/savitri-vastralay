@@ -1,4 +1,4 @@
-// ===== PERFECT ADVERTISEMENT - SAVITRI VASTRALAY =====
+// ===== SAVITRI VASTRALAY - COMPLETE JAVASCRIPT =====
 (function() {
     // ===== LIVE DATE =====
     const liveDate = document.getElementById('liveDate');
@@ -128,7 +128,6 @@
     // ===== COPY ADDRESS & OWNER =====
     const copyBtn = document.getElementById('copyBtn');
     const ownerDiv = document.querySelector('.owner-info');
-    const addressDiv = document.getElementById('addressText');
     
     copyBtn.addEventListener('click', function() {
         const address = "Opposite Canara Bank, above School Hub, Lalan Complex, Siwan";
@@ -152,6 +151,54 @@
         });
     });
 
+    // ===== FOOTER FUNCTIONALITY =====
+    const quickCallBtn = document.getElementById('quickCallBtn');
+    const quickWhatsappBtn = document.getElementById('quickWhatsappBtn');
+    const quickMapBtn = document.getElementById('quickMapBtn');
+    const shareBtn = document.getElementById('shareBtn');
+    
+    // Call Button
+    if (quickCallBtn) {
+        quickCallBtn.addEventListener('click', function() {
+            window.location.href = 'tel:9903853162';
+        });
+    }
+    
+    // WhatsApp Button
+    if (quickWhatsappBtn) {
+        quickWhatsappBtn.addEventListener('click', function() {
+            const message = encodeURIComponent('Hi, I am interested in your products.');
+            window.open(`https://wa.me/919903853162?text=${message}`, '_blank');
+        });
+    }
+    
+    // Map/Direction Button
+    if (quickMapBtn) {
+        quickMapBtn.addEventListener('click', function() {
+            const address = encodeURIComponent('Opposite Canara Bank, above School Hub, Lalan Complex, Siwan');
+            window.open(`https://www.google.com/maps/search/?api=1&query=${address}`, '_blank');
+        });
+    }
+    
+    // Share Button
+    if (shareBtn) {
+        shareBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'SAVITRI VASTRALAY',
+                    text: 'Women\'s Fashion Store - Suits, Sarees, Lehengas and more',
+                    url: window.location.href
+                }).catch(console.error);
+            } else {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    showToast('Link copied! Share on WhatsApp');
+                });
+            }
+        });
+    }
+
     // ===== TOAST NOTIFICATION =====
     function showToast(message, type = 'success') {
         const toast = document.createElement('div');
@@ -165,51 +212,4 @@
         toast.style.zIndex = '9999';
         toast.style.boxShadow = '0 10px 30px rgba(0,0,0,0.3)';
         toast.style.border = '3px solid white';
-        toast.style.animation = 'slideIn 0.3s';
-        toast.innerHTML = `<i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i> ${message}`;
-        
-        document.body.appendChild(toast);
-        
-        setTimeout(() => {
-            toast.style.animation = 'slideOut 0.3s';
-            setTimeout(() => toast.remove(), 300);
-        }, 3000);
-    }
-
-    // ===== MOUSE MOVE COLOR SPLASH =====
-    document.addEventListener('mousemove', function(e) {
-        if (Math.random() > 0.95) {
-            const splash = document.createElement('div');
-            splash.style.position = 'fixed';
-            splash.style.left = e.clientX + 'px';
-            splash.style.top = e.clientY + 'px';
-            splash.style.width = '30px';
-            splash.style.height = '30px';
-            splash.style.background = `radial-gradient(circle, ${['#ff6b6b', '#ffb3c6', '#a13e5c'][Math.floor(Math.random() * 3)]} 0%, transparent 70%)`;
-            splash.style.borderRadius = '50%';
-            splash.style.pointerEvents = 'none';
-            splash.style.zIndex = '9998';
-            splash.style.animation = 'fadeOut 1s forwards';
-            document.body.appendChild(splash);
-            setTimeout(() => splash.remove(), 1000);
-        }
-    });
-
-    // ===== ADD ANIMATIONS =====
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes slideIn {
-            from { transform: translateX(100%); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-        @keyframes slideOut {
-            from { transform: translateX(0); opacity: 1; }
-            to { transform: translateX(100%); opacity: 0; }
-        }
-        @keyframes fadeOut {
-            0% { transform: scale(0.5); opacity: 1; }
-            100% { transform: scale(3); opacity: 0; }
-        }
-    `;
-    document.head.appendChild(style);
-})();
+        toast.style.animation = 'slideIn 
