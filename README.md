@@ -75,7 +75,7 @@ savitri-vastralay/
 ## HOW TO USE
 
 ### 1. View Website
-Click here: [Live Demo](https://your-username.github.io/savitri-vastralay)
+Click here: [[Live Demo](https://your-username.github.io/savitri-vastralay](https://akash38314.github.io/savitri-vastralay/](https://akash38314.github.io/savitri-vastralay/))
 
 ### 2. Browse Products
 - Click on any product chip to see details
