@@ -202,9 +202,9 @@
         { id: 23, category: 'skirts', title: 'Denim Skirt', description: 'Denim style', size: 'S, M, L', originalPrice: '₹1699', discountPrice: '₹1189', discount: '30% OFF', label: 'DENIM', url: 'images/skirts/Denim Skirt.jpg', thumbnail: 'images/skirts/Denim Skirt.jpg' },
         
         // NIGHTIES (3 images)
-        { id: 24, category: 'nighties', title: 'Comfort Nighty', description: 'Ultra comfort', size: 'S, M, L, XL', originalPrice: '₹999', discountPrice: '₹699', discount: '30% OFF', label: 'COMFORT', url: 'images/nighties/Comfort Nighty.jpg', thumbnail: 'images/nighties/Comfort Nighty.jpg' },
-        { id: 25, category: 'nighties', title: 'Cotton Nighty', description: 'Pure cotton', size: 'S, M, L, XL', originalPrice: '₹899', discountPrice: '₹629', discount: '30% OFF', label: 'COTTON', url: 'images/nighties/Cotton Nighty.jpg', thumbnail: 'images/nighties/Cotton Nighty.jpg' },
-        { id: 26, category: 'nighties', title: 'Silk Nighty', description: 'Luxury silk', size: 'S, M, L', originalPrice: '₹1999', discountPrice: '₹1399', discount: '30% OFF', label: 'SILK', url: 'images/nighties/Silk Nighty.jpg', thumbnail: 'images/nighties/Silk Nighty.jpg' },
+       { id: 24, category: 'nighties', title: 'Comfort Nighty', description: 'Ultra comfort', size: 'S, M, L, XL', originalPrice: '₹999', discountPrice: '₹699', discount: '30% OFF', label: 'COMFORT', url: 'images/nightie/Comfort Nighty.jpg', thumbnail: 'images/nightie/Comfort Nighty.jpg' },
+{ id: 25, category: 'nighties', title: 'Cotton Nighty', description: 'Pure cotton', size: 'S, M, L, XL', originalPrice: '₹899', discountPrice: '₹629', discount: '30% OFF', label: 'COTTON', url: 'images/nightie/Cotton Nighty.jpg', thumbnail: 'images/nightie/Cotton Nighty.jpg' },
+{ id: 26, category: 'nighties', title: 'Silk Nighty', description: 'Luxury silk', size: 'S, M, L', originalPrice: '₹1999', discountPrice: '₹1399', discount: '30% OFF', label: 'SILK', url: 'images/nightie/Silk Nighty.jpg', thumbnail: 'images/nightie/Silk Nighty.jpg' },
         
         // KIDS WEAR (3 images)
         { id: 27, category: 'kidswear', title: 'Kids Suit', description: 'Kids party suit', size: '2-4 years', originalPrice: '₹1499', discountPrice: '₹1049', discount: '30% OFF', label: 'KIDS', url: 'images/kidswear/Kids Suit.jpg', thumbnail: 'images/kidswear/Kids Suit.jpg' },
@@ -327,3 +327,4 @@
         }
     });
 })();
+
