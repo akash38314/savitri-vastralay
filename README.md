@@ -6,7 +6,7 @@ Women's Fashion Store
 
 ## LIVE SITE
 
-🔗 https://akash38314.github.io/savitri-vastralay/
+🔗 [https://akash38314.github.io/savitri-vastralay/](https://akash38314.github.io/savitri-vastralay)
 
 ---
 
