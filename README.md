@@ -46,6 +46,11 @@ We offer suits, sarees, frocks, dupattas, lehengas, gowns, skirts, nighties, kid
 
 Leave your details · We'll reach out
 
+- Full Name
+- Phone Number
+- Email (Optional)
+- Your Message
+
 ---
 
 © SAVITRI VASTRALAY 2026
